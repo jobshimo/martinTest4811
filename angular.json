@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "martinTest4811"
+    }
+  },
+  "defaultProject": "martinTest4811",
+  "cli": {
+    "analytics": "893809cc-bd89-46f4-a380-f70e8995cce7"
+  }
 }
