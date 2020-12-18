@@ -1,0 +1,13 @@
+<div class="container h-100" style="background: linear-gradient(to right, #ff005e, #e6a9cb);" class="text-center">
+    <div class="row align-items-center heigth">
+        <h2>Component</h2>
+        <div>Select an account</div>
+
+        <div class="dropdown">
+            <select [ngModel]="selectedUser" (ngModelChange)="userEmmiter($event)" name="my_html_select_box">
+                  <option  [ngValue]="item" *ngFor="let item of data; let i = index">{{item.account.displayName}}</option>   
+            </select>
+        </div>
+
+    </div>
+</div>
